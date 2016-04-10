@@ -1,0 +1,18 @@
+{
+  "name": "Shruubi/DIContainer",
+  "description": "Simple implementation of a DI container",
+  "minimum-stability": "beta",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Damon Swayn",
+      "email": "me@shruubi.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Shruubi\\DI\\": "src/" }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.3.*"
+  }
+}

@@ -14,6 +14,13 @@
       "params": [
         { "type": "ref", "value": "testObj" }
       ]
+    },
+    {
+      "name": "testAutoload",
+      "class": "Shruubi\\DI\\TestAutoloadedClass",
+      "params": [
+        { "type": "value", "value": 42 }
+      ]
     }
   ]
 }
