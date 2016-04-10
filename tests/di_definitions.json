@@ -1,0 +1,19 @@
+{
+  "objects": [
+    {
+      "name": "testObj",
+      "class": "Person",
+      "params": [
+        { "type": "value", "value": "Damon" },
+        { "type": "value", "value": 23 }
+      ]
+    },
+    {
+      "name": "greeter",
+      "class": "Greeter",
+      "params": [
+        { "type": "ref", "value": "testObj" }
+      ]
+    }
+  ]
+}
